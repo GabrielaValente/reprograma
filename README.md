@@ -2,6 +2,9 @@
 
 Este é um guia rápido dos principais comandos do Git para auxiliá-lo em seu fluxo de trabalho de desenvolvimento.
 
+
+## Slides dessa aula
+
 ## Configuração Inicial
 
 Antes de começar a utilizar o Git, é necessário fazer uma configuração inicial com suas informações de usuário.
@@ -28,7 +31,7 @@ $ git init
 Cria uma cópia local de um repositório remoto.
 
 ```shell
-$ git clone <URL_do_repositório>
+$ git clone <URL_do_repositório_remoto>
 ```
 
 ### git add
@@ -44,7 +47,7 @@ $ git add <nome_do_arquivo>
 Registra as mudanças realizadas no repositório.
 
 ```shell
-$ git commit -m "Mensagem de commit"
+$ git commit -m "Aqui vai a mensagem do seu commit"
 ```
 
 ### git status
@@ -83,21 +86,12 @@ $ git branch -d <nome_da_branch>
 
 ### git checkout
 
-Muda para uma branch específica ou restaura arquivos.
+Muda para uma branch específica.
 
 ```shell
 $ git checkout <nome_da_branch>
 $ git checkout -- <nome_do_arquivo>
 ```
-
-### git merge
-
-Combina as alterações de uma branch com outra.
-
-```shell
-$ git merge <nome_da_branch>
-```
-
 ### git log
 
 Mostra o histórico de commits do repositório.
@@ -106,24 +100,9 @@ Mostra o histórico de commits do repositório.
 $ git log
 ```
 
-## Ramificação e Mesclagem (Branching and Merging)
-
-O Git permite criar branches para desenvolver recursos isoladamente e mesclar as alterações quando estiverem prontas. Aqui está um exemplo de fluxo básico:
-
-```shell
-$ git checkout -b <nome_da_branch>        # Cria uma nova branch e muda para ela
-# Realiza as alterações nos arquivos
-$ git add <nome_do_arquivo>               # Adiciona os arquivos modificados ao índice
-$ git commit -m "Mensagem de commit"      # Registra as alterações no repositório
-$ git checkout <nome_da_branch_principal> # Retorna para a branch principal
-$ git merge <nome_da_branch>              # Mescla as alterações da branch secundária na principal
-$ git branch -d <nome_da_branch>          # Exclui a branch secundária após a mesclagem
-```
-
 ## Considerações Finais
 
-Este é apenas um guia básico dos principais comandos do Git. Existem muitos outros recursos e comandos disponíveis que podem aprimorar seu fluxo de trabalho
+Este é apenas um guia básico dos principais comandos do Git. Existem muitos outros recursos e comandos disponíveis que podem aprimorar seu fluxo de trabalho.
 
-. Para obter mais informações, consulte a documentação oficial do Git.
+ informações, consulte a documentação oficial do Git.
 
-Espero que este modelo bonito de README seja útil para você!
