@@ -2,7 +2,7 @@
 
 Este é um guia rápido dos principais comandos do Git para auxiliá-lo em seu fluxo de trabalho de desenvolvimento.
 
-## Slides complementares 
+## Slides desta aula:
 
 [Slides da aula](https://github.com/GabrielaValente/reprograma/blob/main/Slides-Introduction-Git-Github.pdf)
 
@@ -105,5 +105,9 @@ $ git log
 
 Este é apenas um guia básico dos principais comandos do Git. Existem muitos outros recursos e comandos disponíveis que podem aprimorar seu fluxo de trabalho.
 
- informações, consulte a documentação oficial do Git.
+
+## Materiais complementares
+
+Documentação do git - https://git-scm.com/docs/git/pt_BR
+Documentação do github - https://docs.github.com/pt/get-started
 
