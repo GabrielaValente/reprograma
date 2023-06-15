@@ -5,6 +5,9 @@ Este é um guia rápido dos principais comandos do Git para auxiliá-lo em seu f
 
 ## Slides dessa aula
 
+[Git e github.pdf](https://github.com/GabrielaValente/reprograma/files/11758882/Git.e.github.pdf)
+
+
 ## Configuração Inicial
 
 Antes de começar a utilizar o Git, é necessário fazer uma configuração inicial com suas informações de usuário.
