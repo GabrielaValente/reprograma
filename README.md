@@ -2,13 +2,9 @@
 
 Este é um guia rápido dos principais comandos do Git para auxiliá-lo em seu fluxo de trabalho de desenvolvimento.
 
-## Slides dessa aula
+## Slides complementares 
 
-<<<<<<< HEAD
-[Git e github.pdf](https://github.com/GabrielaValente/reprograma/files/11758882/Git.e.github.pdf)
 
-=======
->>>>>>> 58c9ab5 (add slides file)
 
 ## Configuração Inicial
 
