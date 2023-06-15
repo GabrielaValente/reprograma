@@ -4,7 +4,7 @@ Este é um guia rápido dos principais comandos do Git para auxiliá-lo em seu f
 
 ## Slides complementares 
 
-
+Slides-Introduction-Git-Github.pdf
 
 ## Configuração Inicial
 
